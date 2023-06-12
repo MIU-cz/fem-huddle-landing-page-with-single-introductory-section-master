@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+@import url(../resourse/normaliz-style-min.css);
+@import url(../resourse/fem-footer-style.css);
+
+// # Front-end Style Guide
+
+// ## Layout
+// The designs were created to the following widths:
+// - Mobile: 375px
+// - Desktop: 1440px
+
+// ## Colors
+$color-Violet: hsl(257, 40%, 49%);
+$color-Soft-Magenta: hsl(300, 69%, 71%);
+
+// ## Typography
+$font-W4: 400;
+$font-W6: 400;
+// ### Headings
+$font-Poppins: "Open Sans", sans-serif;
+// ### Body
+$font-OpenSans: "Poppins", sans-serif;
+
+// ## Icons
+// For the social icons, you can use a font icon library. Some suggestions can be found below:
+// - [Font Awesome](https://fontawesome.com/)
+// - [IcoMoon](https://icomoon.io/)
+// - [Ionicons](https://ionicons.com/)
+
+// # my Variables
+$btn-w: 200px;
+$btn-h: 55px;
+$ico-w: 40px;
+$gap: 60px;
+$mrgn: 30px;
+
+// ====================
+// ### Main Style
+
+body {
+}
