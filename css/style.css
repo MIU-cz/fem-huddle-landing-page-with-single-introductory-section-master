@@ -1,3 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 @import url(../resourse/normaliz-style-min.css);
-@import url(../resourse/fem-footer-style.css);/*# sourceMappingURL=style.css.map */
+@import url(../resourse/fem-footer-style.css);
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+}
+
+.fluid {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.image img {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  gap: 20px;
+  justify-content: end;
+}
+
+.nav_item {
+  width: 40px;
+  display: inline-block;
+}
+.nav_item path {
+  fill: white;
+}/*# sourceMappingURL=style.css.map */

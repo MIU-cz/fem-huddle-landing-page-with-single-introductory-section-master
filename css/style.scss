@@ -17,9 +17,9 @@ $color-Soft-Magenta: hsl(300, 69%, 71%);
 $font-W4: 400;
 $font-W6: 400;
 // ### Headings
-$font-Poppins: "Open Sans", sans-serif;
+$font-Headings: "Poppins", sans-serif;
 // ### Body
-$font-OpenSans: "Poppins", sans-serif;
+$font-Body: "Open Sans", sans-serif;
 
 // ## Icons
 // For the social icons, you can use a font icon library. Some suggestions can be found below:
@@ -38,4 +38,63 @@ $mrgn: 30px;
 // ### Main Style
 
 body {
+	background-image: url(../images/bg-desktop.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: $color-Violet;
+	font-family: $font-Body;
+	font-weight: $font-W4;
+	color: white;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+}
+
+.fluid {
+	width: 100%;
+}
+
+.v100 {
+	// height: 100vh;
+}
+
+.flex {
+	display: flex;
+}
+
+.navbar {
+}
+
+.conteiner {
+	// width: 100%;
+}
+
+.image {
+	& img {
+		width: 100%;
+	}
+}
+
+.content {
+}
+
+.button {
+}
+
+.nav__footer {
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 40px);
+	gap: 20px;
+	justify-content: end;
+}
+
+.nav_item {
+	width: 40px;
+	display: inline-block;
+
+	& path {
+		fill: white;
+	}
 }
