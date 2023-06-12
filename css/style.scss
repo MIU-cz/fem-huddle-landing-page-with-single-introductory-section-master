@@ -77,6 +77,12 @@ body {
 	& img {
 		max-width: $logo-width;
 	}
+
+	// & a:hover {
+	// 	path {
+	// 		fill: $color-Soft-Magenta;
+	// 	}
+	// }
 }
 
 .conteiner__content {
@@ -138,8 +144,17 @@ body {
 	border-radius: 50px;
 	box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
 
+	font-family: $font-Headings;
+	font-weight: $font-W6;
+	font-size: 1.2em;
+
 	@media (max-width: 992px) {
 		margin: $mrgn auto;
+	}
+
+	&:hover {
+		background-color: $color-Soft-Magenta;
+		color: white;
 	}
 }
 
@@ -171,6 +186,11 @@ body {
 .nav_item {
 	max-width: 40px;
 	// display: inline-block;
+	&:hover {
+		path {
+			fill: $color-Soft-Magenta;
+		}
+	}
 }
 
 .ionicon {
